@@ -1,0 +1,13 @@
+interface:
+  display_name: 微信表情包生成器
+  short_description: 上传一张图，用中文选择动态或静态，生成微信表情专辑素材和完整投稿资料
+  default_prompt: 使用 $wechat-sticker-generator，以我上传的图片为主角，制作16款动态微信表情包，主题为犀利吐槽，并准备完整投稿资料。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
